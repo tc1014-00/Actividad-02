@@ -1,16 +1,11 @@
 #Actividad-02
 
-###Tarea 2. Programas.
+###Tarea 2. Algoritmos y Programas.
 
-#####1. Elabora un algoritmo y escribe un programa que muestre en la pantalla la siguiente información:
-  * Tu nombre completo.
-  * Tu matrícula.
-  * Tu carrera.
-  * Dos o tres líneas que te describan de manera general.
+Consulta el documento anexo con la descripción de los 4 problemas que debes resolver.
 
-#####2. La velocidad de un auto puede calcularse con la fórmula v = d/t. (v-velocidad, d-distancia, t-tiempo). Un auto está viajando a 115 km/hr, escribe un programa que calcule e imprima lo siguiente:
-  * La distancia que el auto recorre en 6 hrs.
-  * La distancia que el auto recorre en 10 hrs.
-  * El tiempo que requiere para recorrer 500 km.
-
-#####3. 
+El análisis y algoritmo lo reportas directamente en el documento, los programas los capturas en los 4 archivos que se encuentran en el proyecto:
+  * miInfo.py - Aquí escribes el programa con la solución del problema 1.
+  * auto.py - Aquí escribes el programa con la solución del problema 2.
+  * cuenta.py - Aquí escribes el programa con la solución del problema 3.
+  * porcentajes.py - Aquí escribes el programa con la solución del problema 4.
