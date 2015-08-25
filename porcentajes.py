@@ -1,10 +1,16 @@
 #encoding: UTF-8
-
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Manuel Eduardo Zavala Gómez A01375832
+# Descripcion: Calcular porcentajes
 
 # A partir de aqui escribe tu programa
-
+hombres=int(input("Hombres inscritos"))
+mujeres=int(input("Mujeres inscritas"))
+total=(hombres+mujeres)
+porcentajeMujeres= ((mujeres*100)/total)
+porcentajeHombres=((hombres*100)/total)
+print("Total inscritos:",total)
+print(" Porcentaje de mujeres: %02i%%" % porcentajeMujeres)
+print("Porcentaje de hombres: %02i%%" % porcentajeHombres)
 
 
 

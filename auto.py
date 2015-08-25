@@ -1,10 +1,16 @@
 #encoding: UTF-8
-
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Manuel Eduardo Zavala Gómez   A01375832
+# Descripcion: Calcular distancia y tiempo
 
 # A partir de aqui escribe tu programa
 
+vel=(115)
+dist=(vel*6)
+dist2=(vel*10)
+tiempo=(500/vel)
+print("Distancia recorrida en 6 horas:",dist)
+print("Distancia recorrida en 10 horas:",dist2)
+print("Tiempo a los 500km recorridos:", tiempo)
 
 
 
