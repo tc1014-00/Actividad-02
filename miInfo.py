@@ -1,14 +1,16 @@
 #encoding: UTF-8
-
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Manuel Eduardo Zavala Gómez     A01375832
+# Descripcion: Información
 
 # A partir de aqui escribe tu programa
-
-
-
-
-
+nombre = ("Manuel Eduardo Zavala Gómez")
+matricula=("A01375832")
+carrera=("ISC")
+descrip=("Me gusta el baseball, me gusta comer pizza, las peliculas de Tarantino son mis favoritas")
+print(nombre)
+print(matricula)
+print(carrera)
+print(descrip)
 
 
 '''
