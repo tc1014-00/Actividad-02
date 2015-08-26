@@ -1,11 +1,18 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Pablo Alejandro Sánchez Tadeo A01377515
+# Descripcion: Este programa calcula distancia rerorrida en 6 y 10 horas, y tiempo para recorrer 500 km
 
 # A partir de aqui escribe tu programa
 
+velocidad = int( 115 )
+distancia6horas = velocidad*6
+distancia10horas = velocidad*10
+tiempo500km = 500/velocidad
 
+print("Distancia rerorrida en 6 horas:",distancia6horas)
+print("Distancia rerorrida en 10 horas:",distancia10horas)
+print("Tiempo para recorrer 500 km;" ,tiempo500km)
 
 
 
