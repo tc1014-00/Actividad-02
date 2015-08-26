@@ -5,7 +5,17 @@
 
 # A partir de aqui escribe tu programa
 
+hombres = int( input("Numero de hombres"))
+mujeres = int( input("Numero de mujeres"))
 
+alumnos = hombres + mujeres
+
+porhombres = hombres * 100 / alumnos
+pormujeres = mujeres * 100 / alumnos
+
+print("Total de alumnos:",alumnos)
+print("Procentaje de hombres: %.0f%%" %porhombres)
+print("Procentaje de mujeres: %.0f%%" %pormujeres)
 
 
 '''
