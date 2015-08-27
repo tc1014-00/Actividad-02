@@ -1,13 +1,16 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Jorge Daniel Juárez Ruiz, A01376425
+# Descripcion: Calcular el porcentaje de hombres y mujeres en un clase
 
-# A partir de aqui escribe tu programa
-
-
-
-
+nh= int(input("numero de hombres"))
+nm= int(input("numero de mujeres"))
+t= nm+ nh
+ph= (nh*100)/t
+pm= (nm*100)/t
+print ("Total de alumnos:",t)
+print ("% de hombres:",int(ph),"%")
+print ("% de mujeres:",int(pm),"%")
 '''
 Ejemplo de salida (por ahora no te preocupes por los acentos):
 
