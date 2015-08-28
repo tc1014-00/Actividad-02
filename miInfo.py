@@ -1,15 +1,15 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
-
-# A partir de aqui escribe tu programa
-
-
-
-
-
-
+# Autor: Jorge Daniel Juárez Ruiz, A01376425
+# Descripcion: Imprimir tu información personal
+n=input("Nombre")
+m=input("Matricula")
+c=input("Carrera")
+d=input("Descripción de ti")
+print("Nombre:",n)
+print("Matricula:",m)
+print("Carrera:",c)
+print(d)
 
 '''
 Ejemplo de salida (por ahora no te preocupes por los acentos):

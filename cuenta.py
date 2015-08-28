@@ -1,12 +1,16 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Jorge Daniel Juárez Ruiz, A01376425
+# Descripcion: Calcular el total a pagar con propina e IVA
 
-# A partir de aqui escribe tu programa
-
-
-
+s= int(input("El costo de la comida es"))
+p= (s*0.15)
+i= (s*0.16)
+t= s+p+i
+print("Costo de la comida $%5.2f" %(s))
+print("Propina $%5.2f" %(p))
+print("IVA $%5.2f" %(i))
+print("Total a pagar $%5.2f" %(t))
 
 '''
 Ejemplo de salida (por ahora no te preocupes por los acentos):
