@@ -1,9 +1,13 @@
 #encoding: UTF-8
+# Armando Tapia Campos A01169413
+# Imprimir nombre, matricula, cosas que me describen
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
-
-# A partir de aqui escribe tu programa
+print("Nombre: Armando Tapia Campos")
+print("Matricula: A01169413")
+print("Carrera: ISDR")
+print("Me gusta dormir durante el dia y jugar en la noche")
+print("Puedo ser distraido hasta por una mosca")
+print("Adoro cocinar")
 
 
 

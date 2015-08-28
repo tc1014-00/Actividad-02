@@ -1,10 +1,17 @@
 #encoding: UTF-8
+# Armando Tapia Campos A01169413
+# Calculando el total a pagar
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+subTotal = int(input("¿cual fue el total de la comida?"))
+propina = subTotal*.15
+IVA = subTotal*.16
 
-# A partir de aqui escribe tu programa
+total = subTotal+propina+IVA
 
+print("Costo de la comida", subTotal)
+print("Propina:", propina)
+print("IVA:", IVA)
+print("Total a pagar:",total)
 
 
 
