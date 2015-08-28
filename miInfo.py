@@ -1,12 +1,16 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Humberto Serra Mendieta, A01377519
+# Programa que imprime informacion sobre mi
 
 # A partir de aqui escribe tu programa
 
-
-
+print("Nombre: Humberto Serra Mendieta")
+print("Matricula: A01377519")
+print("Carrera: ISDR")
+print("Naci y vivi en Tabasco mis primeros 18 años")
+print("Me gusta todo lo relacionado sobre la tecnologia")
+print("Tambien me gusta la cocina")
 
 
 
