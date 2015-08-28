@@ -1,11 +1,15 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Sergio Alberto Hernandez Mendez, A01371446
+# Descripcion: Obtiene el total y porcentajes de hombres y mujeres en una clase a partir de la cantidad de personas de cada sexo
 
 # A partir de aqui escribe tu programa
-
-
+hombresInscritos = float (input ("¿Cual es el numero de hombres inscritos en la clase?"))
+mujeresInscritas = float (input("¿Y de mujeres?"))
+total = hombresInscritos + mujeresInscritas
+porcentajeHombres = hombresInscritos / total * 100
+porcentajeMujeres = mujeresInscritas / total * 100
+print ("Total inscritos: %i \n%% de mujeres: %i%% \n%% de hombres: %i%%" % (total, porcentajeHombres, porcentajeMujeres))
 
 
 '''
