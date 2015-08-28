@@ -1,13 +1,26 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Mauricio Medrano , A01272273
+# Descripcion: Calcular velocidad, tiempo y distancia 
 
 # A partir de aqui escribe tu programa
 
+tiempo = int(input("tiempo"))
+
+velocidad = int(input("velocidad"))
+
+Distancia = int( velocidad * tiempo ) 
+
+print ( Distancia ) 
 
 
+distancia = int(input("distancia"))
 
+Velocidad = int(input("Velocidad")) 
+
+Tiempo = ( distancia / velocidad) 
+
+print ( Tiempo ) 
 
 '''
 Ejemplo de salida (por ahora no te preocupes por los acentos):

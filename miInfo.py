@@ -1,9 +1,32 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Mauricio Alejandro Medrano Castro, A01272273
+# Descripcion: Imprimir nombre, matricula y algun comentario
 
 # A partir de aqui escribe tu programa
+
+nombre = input("Tu nombre") 
+
+carrera = input("Tu Carrera") 
+
+matricula = input("Tu Matricula") 
+
+comentario = input("Tu Comentario")
+
+
+print ( "Nombre:" , nombre ) 
+
+print ( "Carrera:", carrera ) 
+
+print ( "Matricula:", matricula ) 
+
+print ( "comentario:", comentario ) 
+
+
+ 
+
+
+
 
 
 
