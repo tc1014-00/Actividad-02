@@ -1,9 +1,16 @@
 #encoding: UTF-8
+# Armando Tapia Campos A01169413
+# Calcular distancia y tiempo de un auto 
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+velocidad = int(input("¿cual es tu velocidad en km/h?"))
 
-# A partir de aqui escribe tu programa
+horaSeis = velocidad*6
+horaDiez = velocidad*10
+distancia = 500/velocidad
+
+print("distancia recorrida en 6 horas:", horaSeis)
+print("distancia recorrida en 10 horas:", horaDiez)
+print("tiempo para recorrer 500km:", distancia)
 
 
 

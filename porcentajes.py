@@ -1,9 +1,19 @@
 #encoding: UTF-8
+# Armando Tapia Campos A01169413
+# Porcentaje de mujeres y hombres
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+mujeres = int(input("¿cuantas mujeres hay en la clase?"))
+hombres = int(input("¿cuantos hombres hay en la clase?"))
+ 
+total = mujeres+hombres
+porcentajeMujeres = (mujeres/total)*100
+porcentajeHombres = (hombres/total)*100
 
-# A partir de aqui escribe tu programa
+print("Total inscritos:", total)
+print("% de mujeres:", porcentajeMujeres, "%")
+print("% de hombres:", porcentajeHombres, "%")
+ 
+ 
 
 
 
