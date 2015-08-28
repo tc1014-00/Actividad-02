@@ -1,14 +1,16 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Ernesto Cruz López.
+# Imprime nombre matricula carrea y otros datos de alumnos del Tec.
 
 # A partir de aqui escribe tu programa
 
-
-
-
-
+print("""Ernesto Cruz López.
+A01169052. 
+ISDR.
+Me gusta aprender cosas nuevas.
+Me gusta cocinar.
+Mis deportes favoritos son la natación y el basketball.""")
 
 
 '''
