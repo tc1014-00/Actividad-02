@@ -1,18 +1,22 @@
 #encoding: UTF-8
+#Brian Saggiante Parra, A01377511
+#Calcular distancia en 6 y 10 hrs. a demas de calcular el tiempo en 500km
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+v=int(input('velocidad')) #115km 
+t=int(input('tiempo')) #6hrs
+distanciaUno=v*t
 
-# A partir de aqui escribe tu programa
+print('distanciaUno: ', distanciaUno,'km')
 
+v=int(input('velocidad')) #115km/hr
+t=int(input('tiempo')) #10hrs
+distanciaDos=v*t
 
+print('distanciaDos: ', distanciaDos,'km')
 
+d=int(input('distancia')) #500km
+v=int(input('velocidad')) #115km/hr
 
+tiempo=d/v
 
-'''
-Ejemplo de salida (por ahora no te preocupes por los acentos):
-
-Distancia recorrida en 6 horas: 690
-Distancia recorrida en 10 horas: 1150
-Tiempo para recorrer 500 km: 4.34782608696
-'''
+print('tiempo: ', tiempo, 'hrs')

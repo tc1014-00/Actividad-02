@@ -1,19 +1,15 @@
 #encoding: UTF-8
+#Brian Saggiante, A01377511
+#Total y porcentaje de hombres y mujeres en una clase
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+H=int(input('H'))
+M=int(input('M'))
 
-# A partir de aqui escribe tu programa
+totalAlumnos=H+M
 
+porcentajeH=(H/totalAlumnos)*100
+porcentajeM=(M/totalAlumnos)*100
 
-
-
-'''
-Ejemplo de salida (por ahora no te preocupes por los acentos):
-
-Suponiendo que el usuario teclea 14 mujeres y 11 hombres.
-
-Total inscritos: 25
-% de mujeres: 56%
-% de hombres: 44%
-'''
+print('El total de alumnos es de ', totalAlumnos)
+print('El porcentaje de hombres en el grupo es de: ' , porcentajeH,'%')
+print('El porcentaje de mujeres en el grupo es de: ' , porcentajeM,'%')

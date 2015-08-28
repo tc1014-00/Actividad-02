@@ -1,20 +1,14 @@
 #encoding: UTF-8
+#Brian Saggiante Parra, A01377511
+#Total a pagar de una cuenta
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+comida=int(input('comida')) #$250.ºº
+propina=.15*comida
+IVA=.16*comida
 
-# A partir de aqui escribe tu programa
+totalDePago=comida+propina+IVA
 
-
-
-
-'''
-Ejemplo de salida (por ahora no te preocupes por los acentos):
-
-Suponiendo que el usuario teclea 250.
-
-Costo de la comida: $250.00
-Propina: $37.50
-IVA: $40.00
-Total a pagar: $327.50
-'''
+print(comida)
+print(propina)
+print(IVA)
+print('El total de la comida es de $',totalDePago)
