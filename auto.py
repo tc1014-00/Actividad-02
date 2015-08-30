@@ -5,9 +5,27 @@
 
 # A partir de aqui escribe tu programa
 
+#encoding: UTF-8
+#Autor: Abraham Gandaria Alonso, A01377349
+#Descripcion: Velocidad, distancia y tiempo.
 
+v=115
+t=6
 
+d=(v*t)
+print ("distancia:",d)
 
+v=115
+t=10
+
+d=(v*t)
+print ("distancia:",d)
+
+v=115
+d=500
+
+t=d/v
+print("tiempo:",t)
 
 '''
 Ejemplo de salida (por ahora no te preocupes por los acentos):
