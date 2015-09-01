@@ -1,11 +1,25 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Mauricio Alejandro Medrano Castro, A01272273
+# Descripcion: Calcular porcentajes
 
 # A partir de aqui escribe tu programa
 
+alumnosHombres = int(input("Alumnos Hombres")) 
 
+alumnosMujeres = int(input("Alumnos Mujeres")) 
+
+alumnosTotales = alumnosHombres + alumnosMujeres 
+
+Hombres = int(alumnosHombres * 100/alumnosTotales) 
+
+Mujeres = int(alumnosMujeres * 100/alumnosTotales) 
+
+print ( "Total de Alumnos:", alumnosTotales, "alumnos")
+
+print ( "Alumnos Hombres:",Hombres,"%")
+
+print ("Alumnos Mujeres:", Mujeres,"%") 
 
 
 '''

@@ -1,10 +1,19 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estas resolviendo.
+# Autor: Mauricio Alejandro Medrano Castro, A01272273
+# Descripcion: Calcular la propina, el IVA y total de una cuenta.
 
 # A partir de aqui escribe tu programa
 
+subtotal = int(input("subtotal"))  
+propina = subtotal * 0.15 
+impuesto = subtotal * 0.16 
+totalAPagar = subtotal + propina + impuesto 
+
+print ("Subtotal: $", "%.2f" % subtotal) 
+print ("Propina: $", "%.2f" % propina)
+print ("Impuesto: $", "%.2f" % impuesto) 
+print ("Total a Pagar: $" ,"%.2f" % totalAPagar) 
 
 
 
