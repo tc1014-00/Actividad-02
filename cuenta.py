@@ -5,6 +5,25 @@
 
 # A partir de aqui escribe tu programa
 
+#encoding: UTF-8
+#Autor: Abraham Gandaria Alonso, A01377349
+#Descripcion: Costo de la comida.
+
+a=float(input("Costo de su comida"))
+print("Costo de la comida:$",a)
+
+b=0.15
+c=(a*b)
+d=(a+c)
+print("IVA:$",c)
+
+e=0.16
+f=(a*e)
+print("Propina:$",f)
+g=(d+f)
+print("Total a pagar:$",g)
+
+
 
 
 

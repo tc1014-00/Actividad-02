@@ -5,6 +5,21 @@
 
 # A partir de aqui escribe tu programa
 
+#encoding: UTF-8
+#Autor: Abraham Gandaria Alonso, A01377349
+#Descripcion: Porcentaje
+
+a=int(input("Hombres inscritos"))
+b=int(input("Mujeres inscritas"))
+c=(a+b)
+print("Total inscritos:",c)
+
+d=100
+e=int((a*d)/c)
+print("%de Hombres:", e,"%")
+
+f=int((b*d)/c)
+print("%de Mujeres:",f,"%")
 
 
 
